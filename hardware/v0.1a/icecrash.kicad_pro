@@ -33,7 +33,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.2,
+          "drill": 0.3,
           "height": 0.5,
           "width": 0.5
         },
@@ -68,7 +68,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -89,8 +89,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -356,7 +356,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "icedemo.kicad_pro",
+    "filename": "icecrash.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -435,13 +435,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
     "ngspice": {
